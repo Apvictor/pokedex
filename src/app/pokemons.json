@@ -1,0 +1,74 @@
+[
+  {
+    "nome": "bulbasaur",
+    "peso": 69,
+    "foto_front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "foto_back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+    "animacao": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif",
+    "altura": 7,
+    "habilidades": [
+      {
+        "habilidade": "overgrow"
+      },
+      {
+        "habilidade": "chlorophyll"
+      }
+    ],
+    "tipos": [
+      {
+        "tipo": "grass"
+      },
+      {
+        "tipo": "poison"
+      }
+    ]
+  },
+  {
+    "nome": "squirtle",
+    "peso": 90,
+    "altura": 5,
+    "foto_front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "foto_back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
+    "animacao": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif",
+    "habilidades": [
+      {
+        "habilidade": "torrent"
+      },
+      {
+        "habilidade": "rain-dish"
+      }
+    ],
+    "tipos": [
+      {
+        "tipo": "water"
+      }
+    ]
+  },
+  {
+    "nome": "pidgeot",
+    "peso": 395,
+    "altura": 15,
+    "foto_front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "foto_back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png",
+    "animacao": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif",
+    "habilidades": [
+      {
+        "habilidade": "keen-eye"
+      },
+      {
+        "habilidade": "tangled-feet"
+      },
+      {
+        "habilidade": "big-pecks"
+      }
+    ],
+    "tipos": [
+      {
+        "tipo": "normal"
+      },
+      {
+        "tipo": "flying"
+      }
+    ]
+  }
+]

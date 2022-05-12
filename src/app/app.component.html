@@ -1,0 +1,39 @@
+<div class="pokemons" *ngIf="pokemonSelecionado">
+  <div class="pokemon-imagem">
+    <img class="animate" [src]="pokemonSelecionado.animacao" />
+  </div>
+
+  <div class="pokemon-infos">
+    <p>
+      Nome: <strong>{{ pokemonSelecionado.nome }}</strong>
+    </p>
+    <p>
+      Peso: <strong>{{ pokemonSelecionado.peso }}</strong>
+    </p>
+    <p>
+      Altura: <strong>{{ pokemonSelecionado.altura }}</strong>
+    </p>
+  </div>
+
+  <p class="title"><strong>Tipos</strong></p>
+  <div class="habilidades">
+    <p *ngFor="let tipos of pokemonSelecionado.tipos">
+      <strong>{{ tipos.tipo }}</strong>
+    </p>
+  </div>
+
+  <p class="title"><strong>Habilidades</strong></p>
+  <div class="habilidades">
+    <p *ngFor="let habilidades of pokemonSelecionado.habilidades">
+      <strong>{{ habilidades.habilidade }}</strong>
+    </p>
+  </div>
+</div>
+
+<div class="pokemons-float" *ngFor="let pokemon of pokemons; index as i">
+  <img
+    class="animate-float animation-{{ i }}"
+    [src]="pokemon.foto_front"
+    (click)="selecionarPokemon(pokemon)"
+  />
+</div>

@@ -76,7 +76,7 @@ p {
   }
 
   100% {
-    transform: translate(10px, 200px);
+    transform: translate(0px, 70px);
   }
 }
 
@@ -116,7 +116,7 @@ p {
   }
 
   100% {
-    transform: translate(300px, -80px);
+    transform: translate(100px, -100px);
   }
 }
 
@@ -126,6 +126,6 @@ p {
   }
 
   100% {
-    transform: translate(80px, -80px);
+    transform: translate(60px, -80px);
   }
 }
